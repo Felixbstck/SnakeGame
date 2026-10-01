@@ -90,6 +90,7 @@ def check_game_is_over(head, snake):
 def main():
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
+    pygame.display.set_caption('Snake')
     clock = pygame.time.Clock()
     font = pygame.font.SysFont('timesnewroman', 30, True)
     button_rect = make_button_rect(font)

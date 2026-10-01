@@ -1,4 +1,9 @@
-This game was NOT vibecoded
+This game was NOT vibecoded.
+
+This is a basic snake game coded in Python using the pygame module
+
+![alt text](https://github.com/felixbstck/SnakeGame/img/game_screenshot.png "Game screenshot")
+
 
 Things to fix or add:
 
@@ -8,7 +13,7 @@ Win screen<br>
 Settings<br>
 
 
-to play:
+How to play:
 
 ```
 python -m venv .venv
