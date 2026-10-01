@@ -1,23 +1,23 @@
-This game was NOT vibecoded.
+A basic snake game written in Python with pygame. This game was NOT vibecoded.
 
-This is a basic snake game coded in Python using the pygame module
+<p align="center">
+  <img src="img/game_screenshot.png" alt="Screenshot of the snake game" width="400">
+</p>
 
-![alt text](https://github.com/felixbstck/SnakeGame/img/game_screenshot.png "Game screenshot")
+## How to play
 
-
-Things to fix or add:
-
-Start screen<br>
-Counter<br>
-Win screen<br>
-Settings<br>
-
-
-How to play:
-
-```
+```bash
 python -m venv .venv
-soure ./venv/bin/activate
-pip install -f requirements.txt
-python ./game.py
-````
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python game.py
+```
+
+Controls: **W / A / S / D** to move. Eat the red fruit, avoid the walls and yourself.
+
+## To do
+
+- [ ] Start screen
+- [ ] Counter
+- [ ] Win screen
+- [ ] Settings
